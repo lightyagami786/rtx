@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#myInput{
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+}
+
+#inputContainer{
+  width: 28%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#ourBtnCont{
+  width: 13%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#countDiv{
+margin: auto;
+width: 25%;
+margin-top: 10px;
+
+}
