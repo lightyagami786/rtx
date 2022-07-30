@@ -18,7 +18,6 @@ function App() {
 
   return (
     <>
-    <Router>
     <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
@@ -60,19 +59,18 @@ function App() {
   
     <div>
 
-    <Switch>
+  
 
 
-        <Route path='/about' >
+  
             <OurFirst  />
-        </Route>
+  
 
-        <Route path='/' >
+  
         <OurParaOne />
-        </Route>
-  </Switch>
-  </div>
-  </Router>
+  
+    </div>
+  
 </>
   );
 }
